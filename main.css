@@ -1,0 +1,228 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0;
+		padding: 0;
+		background: #337ec5;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: rgba(0,0,0,0.75);
+		line-height: 2em;
+	}
+
+	ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	a {
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	a:hover {
+		opacity: 0.5;
+	}
+
+	.title {
+		margin-bottom: 3em;
+	}
+
+	.title h2 {
+		font-size: 2.8em;
+		color: rgba(0, 0, 0, 0.8);
+	}
+	
+	.title span {
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		color: rgba(0, 0, 0, 0.8);
+	}
+
+	#header {
+		padding: 14em;
+		background: url(images/header.jpg) no-repeat;
+		background-attachment: fixed;
+		text-align: center;
+	}
+
+	#header span
+	{
+		letter-spacing: 0.5em;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.5);
+	}
+	
+	.container {
+		width: 100%;
+		padding: 3em 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.content {
+		width: 75%;
+		margin: 0 auto;
+	}
+	
+	#columns {
+		overflow: hidden;
+		text-align: center;
+		color: rgba(255,255,255,.6);
+	}
+	
+	#columns .box {
+		float: none;
+		display: inline-block;
+		width: 30%;
+	}
+
+	#columns h2 {
+		margin: 1em 0; 
+		color: rgba(255,255,255,1) !important;
+		text-transform: uppercase;
+		font-size: 1.5em;
+	}
+		
+	#columns .icon {
+		position: relative;
+		background: none;
+		line-height: 150px;
+		font-size: 4em;
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		border: 6px solid #1e4b76;
+		text-align: center;
+		color: #FFF;
+		
+	}
+		
+	#portfolio {
+		background: #fff;
+	}
+
+	#portfolio .box {
+		float: none;
+		display: inline-block;
+		width: 20%;
+		margin: 0 2em;
+	}
+
+	#portfolio .box h3 {
+		display: block;
+		padding-bottom: 1em;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 1em;
+		color: rgba(0,0,0,0.6);
+	}
+	
+	#portfolio .box img {
+		width: 100%;
+	}
+	
+	#contact {
+		background: #ededed;
+	}
+
+	#footer .title h2 {
+		color: rgba(255,255,255,1);
+	}
+
+	#footer .title span {
+		color: rgba(255,255,255,0.5);
+	}
+	
+	#copyright {
+		padding-top: 3em;
+		border-top: 1px solid rgba(255, 255, 255, 0.25);
+	}
+	
+	form {
+		width: 67%;
+		margin: 0 auto;
+	}
+			
+			form input[type=text],
+			form textarea
+			{
+				position: relative;
+				-webkit-appearance: none;
+				display: block;
+				border: 0;
+				background: #fff;
+				background: rgba(255,255,255,0.75);
+				width: 100%;
+				max-width: 100%;
+				border-radius: 0.50em;
+				margin: 1em 0em;
+				padding: 1.50em 1em;
+				box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
+				border: solid 1px rgba(0,0,0,0.15);
+				-moz-transition: all 0.35s ease-in-out;
+				-webkit-transition: all 0.35s ease-in-out;
+				-o-transition: all 0.35s ease-in-out;
+				-ms-transition: all 0.35s ease-in-out;
+				transition: all 0.35s ease-in-out;
+				font-family: 'Source Sans Pro', sans-serif;
+				font-size: 1em;
+				outline: none;
+			}
+
+		form input[type=submit] {
+		display: inline-block;
+		margin: 2em;
+		padding: 1em 2em;
+		background: #337ec5;
+		outline: none;
+		border: none;
+		border-radius: 8px;
+		letter-spacing: 0.3em;
+		line-height: 1.8em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		color: #FFF;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1em;
+		}
+
+	form input[type=submit]:hover {
+		background: #1e4b76;	
+	}
+				form textarea
+				{
+					min-height: 12em;
+				}
+
+	ul.social
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.social li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1.5em;
+	}
+	
+	ul.social li a
+	{
+		display: inline-block;
+		color: #FFF;
+		background: #1e4b76;
+		width: 80px;
+		height: 80px;
+		border-radius: 40px;
+		text-align: center;
+		line-height: 80px;
+		text-decoration: none;
+	}
