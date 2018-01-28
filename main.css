@@ -44,7 +44,7 @@
 	}
 
 	#header {
-		padding: 14em;
+		padding: 14em 0;
 		background: url(images/header.jpg) no-repeat;
 		background-attachment: fixed;
 		text-align: center;
@@ -169,7 +169,6 @@
 				-o-transition: all 0.35s ease-in-out;
 				-ms-transition: all 0.35s ease-in-out;
 				transition: all 0.35s ease-in-out;
-				font-family: 'Source Sans Pro', sans-serif;
 				font-size: 1em;
 				outline: none;
 			}
@@ -186,9 +185,7 @@
 		line-height: 1.8em;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: 1.2em;
 		color: #FFF;
-		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 1em;
 		}
 
@@ -226,3 +223,16 @@
 		line-height: 80px;
 		text-decoration: none;
 	}
+
+@media screen and (max-width: 720px) { 	
+	
+	form {
+		width: 100%;	
+	}
+
+	#columns .box,
+	#portfolio .box {
+		width: 100%;
+		margin: 0;
+	}
+}
