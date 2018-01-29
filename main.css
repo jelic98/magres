@@ -230,6 +230,10 @@
 		width: 100%;	
 	}
 
+	#header {
+		background-attachment: fixed;
+	}
+
 	#columns .box,
 	#portfolio .box {
 		width: 100%;
