@@ -12,12 +12,15 @@
 		<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="theme-color" content="#337ec5">
 		<meta name="viewport" content="initial-scale=1, user-scalable=no">
+		<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
 	</head>
 	<body>
 	<div id="header">
-		<img src="images/logo.png" />
-		<br/>
-		<span>Renoviranje stanova</span>
+		<div id="logo">
+			<img src="images/logo.png" />
+			<br/>
+			<span>Renoviranje stanova</span>
+		</div>
 	</div>
 	<div id="columns" class="container">
 		<div class="box">
@@ -102,5 +105,16 @@
 			<a href="http://www.ecloga.org"><img src="images/ecloga.png" /></a>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			if($(window).scrollTop() >= 0) {
+				var scaleSpeed = 0.07;
+				var scale = Math.min(1, $(window).height()  * scaleSpeed / $(window).scrollTop()); 
+				var translateSpeed = 3.5;
+				var translate = Math.min($(window).height(), translateSpeed * $(window).scrollTop()); 
+				$("#logo").css('transform', 'scale(' + scale + ', ' + scale + ') translateY(' + translate + 'px)');
+			}
+		});
+	</script>
 	</body>
 </html>
