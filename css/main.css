@@ -28,6 +28,11 @@
 		opacity: 0.5;
 	}
 
+	.hidden {
+		display: none;
+		visibility: hidden;
+	}
+
 	.title {
 		margin-bottom: 3em;
 	}
@@ -45,7 +50,7 @@
 
 	#header {
 		padding: 14em 0;
-		background: url(images/header.jpg) no-repeat;
+		background: url(../images/header.jpg) no-repeat;
 		background-attachment: fixed;
 		text-align: center;
 	}
