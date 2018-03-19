@@ -19,6 +19,11 @@
 		list-style: none;
 	}
 	
+	input,
+	textarea {
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+
 	a {
 		cursor: pointer;
 		text-decoration: none;
